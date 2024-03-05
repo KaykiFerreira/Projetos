@@ -3,9 +3,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
 }
 p{
     position:relative;
     left: 10px;
     top: 10px;
+}
+.container-medium {
+    width: 50% !important;
+    background-color: black;
+    height: 100VH;
+    margin: 0;
+    position: fixed;
 }
