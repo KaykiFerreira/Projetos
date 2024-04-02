@@ -1,0 +1,40 @@
+body{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 1224px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.button-header{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    list-style: normal;
+}
+
+.button-green{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    list-style: normal;
+    border-radius: 24px;
+    font-weight: 600;
+    line-height: 150%;
+    padding: 8px 24px;
+}
