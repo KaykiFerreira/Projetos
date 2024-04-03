@@ -1,0 +1,42 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1280px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+#search-bar{
+    background-color: #C6C5CE;
+    border-radius: 42px;
+    width: 518px;
+    height: 42px;
+    margin: 0 auto;
+}
+#txt-search{
+    float: left;
+    background-color: transparent;
+    border: transparent;
+    padding-left: 24px;
+    padding-top: 13px;
+    width: 64px;
+    height: 16px;
+}
+input::placeholder{
+    color: black;
+}
+.img-lupa{
+    float: right;
+    padding-top: 9px;
+    padding-right: 24px;
+}
+    
