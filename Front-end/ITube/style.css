@@ -25,11 +25,12 @@ header {
 #txt-search{
     float: left;
     background-color: transparent;
-    border: transparent;
     padding-left: 24px;
     padding-top: 13px;
     width: 64px;
     height: 16px;
+    border-color: transparent;
+    outline: none;
 }
 input::placeholder{
     color: black;
@@ -38,5 +39,6 @@ input::placeholder{
     float: right;
     padding-top: 9px;
     padding-right: 24px;
+    cursor: pointer;
 }
     
